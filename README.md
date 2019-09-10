@@ -3,7 +3,7 @@
 3.  I set up my front end. I needed a simple home page with containers for the three charts, and the 4 buttons. The only other challenge was using the Github API to get information from the four repositories. Since we wanted accurate, updated information, I put the api calls in an interval function, which is calling the api every second. 
 4.  After the front end was made, I had to hook it up the vote buttons to call the routes I made.  
 5. Deployment was my final step. Here is the link. https://github-framework-poll.herokuapp.com/
-6. I used fullstack academy's boilermaker code. This set up the basic express server with some logging middleware and some of the folder structure for the app. All the code I wrote is in the folders client, server, and public. 
+6. I used fullstack academy's boilermaker code. This set up the basic express server with some logging middleware and some of the folder structure for the app. It also has some deployment scripts which I didn't use. I opted to deploy using continuous integration from the heroku website itself (instead of CLI). All the code I wrote is in the folders client, server, and public. 
 
 
 To run code follow these steps:
